@@ -26,7 +26,6 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
-
 .bloc {
     width: 100%;
     clear: both;
@@ -1025,6 +1024,27 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+    }
+    .center-block{
+        width: 150px;
+    }
+    .row-no-gutters{
+        display: flex;
+    }
+    .col-sm-3{
+        margin-left: 60px;
+    }
+    #partenaire{
+        display: none;
+    }
+    .bgc-atomic-tangerine{
+        max-height: 150px;
     }
 }
 
